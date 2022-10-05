@@ -23,16 +23,16 @@ body {
   grid-gap: 1rem;
 }
 /* Media Queries*/
-@media only screen and (min-width: 360px) {
+@media (min-width: 600px) {
   .cards {
-    grid-template-columns: repeat(2, 1fr); /* or repeat(2, 50%)*/
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 /* Media Queries screen larger than 900 pixels */
-@media only screen and (min-width: 900px) {
+@media (min-width: 900px) {
   .cards {
-    grid-template-columns: repeat(3, 1fr); /* or repeat(2, 50%); or 20% 60% 20% use percentage instead of px*/
+    grid-template-columns: repeat(3, 1fr); 
     
   }
 }
